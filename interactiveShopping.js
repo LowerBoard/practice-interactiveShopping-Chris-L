@@ -35,4 +35,4 @@ shoppingList.addEventListener('click', () => {
         const liToSave = event.target.parentNode;
         liToSave.innerHTML = `${document.getElementById('edittedShoppingItem').value} <button type='button' class='editButton'>Edit Item</button> <button type='button' class='removeButton'>Remove Item</button>`;
     }
-})
+});
